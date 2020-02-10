@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiny Hunting</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/index.css') }}">
+</head>
+<body>
+    <h1>Shiny Hunting</h1>
+    <div class="container">
+        <div class="pokemon" id="mudkip">
+            <img alt="pokemon mudkip" src="{{ url_for('static', filename='images/shiny_mudkip.png') }}" />
+            <h1>Mudkip</h1>
+            <div class="buttons">
+                <button class="button">-</button>
+                <input type="text" class="input-sr" />
+                <button class="button">+</button>
+            </div>
+            <h3>Soft Resets</h3>
+        </div>
+    </div>
+</body>
+</html>
